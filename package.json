@@ -10,7 +10,9 @@
     "nodemon": "^2.0.2",
     "sqlite3": "^4.1.1"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "knex-seed-file": "^1.0.2"
+  },
   "scripts": {
     "server": "nodemon index.js"
   },

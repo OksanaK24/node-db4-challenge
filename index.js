@@ -1,6 +1,6 @@
 const express = require("express")
 const helmet = require("helmet")
-// const db = require("./data/db-config")
+const db = require("./data/db-config")
 
 const server = express()
 const port = process.env.PORT || 4000
